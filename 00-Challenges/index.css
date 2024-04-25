@@ -1,29 +1,27 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
 article {
-  border: 3px solid black;
-  color: black;
+  border: 3px solid #000;
+  color: #000;
 }
 
 button {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #f7f7f7;
+  border: none;
 }
 
 button:hover {
-  background-color: white;
+  background-color: #fff;
   color: black;
 }
 
 h2 {
   background-color: #f7f7f7;
   text-align: center;
-}
-
-button,
-h2,
-h3,
-p,
-li {
-  font-family: sans-serif;
 }
 
 button,
@@ -43,7 +41,7 @@ p {
 }
 
 #free-shipping {
-  color: #6e6c6ce8;
+  color: #777;
   font-size: 12px;
   font-weight: bold;
 }
