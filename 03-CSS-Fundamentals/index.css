@@ -9,6 +9,13 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px; */
@@ -18,6 +25,7 @@ body {
   padding-right: 1px; */
   padding: 20px 40px; /*First number is top and bottom, second number is left and right*/
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -39,6 +47,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -136,6 +145,11 @@ a:hover {
 a:active {
   color: burlywood;
   font-style: italic;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
 }
 
 /* 
