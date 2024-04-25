@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[demo] The Basic Language of the Web: HTML</title>
+    <link href="index.css" rel="stylesheet" />
   </head>
   <body>
     <!-- 
@@ -15,7 +16,7 @@
   <h6>Testing the header sizes</h6>
  -->
 
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -31,16 +32,18 @@
         <h2>The Basic Language of the Web: HTML</h2>
 
         <img
-          src="./img/laura-jones.jpg"
+          src="./../img/laura-jones.jpg"
           alt="Headshot of Laura Jones"
           width="50px"
           height="50px"
         />
 
-        <p>Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027
+        </p>
 
         <img
-          src="./img/post-img.jpg"
+          src="./../img/post-img.jpg"
           alt="HTML code on a screen"
           width="500"
           height="200"
@@ -49,8 +52,8 @@
 
       <p>
         All modern websites and web applications are built using three
-        fundamental technologies: HTML, CSS and JavaScript. These are the
-        languages of the web.
+        fundamental technologies: <em>HTML, CSS and JavaScript</em>. These are
+        the languages of the web.
       </p>
 
       <p>
@@ -76,7 +79,7 @@
       <p>In HTML, each element is made up of 3 parts:</p>
 
       <ol>
-        <li>The opening tag</li>
+        <li class="first-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
@@ -98,7 +101,9 @@
       </p>
 
       <ul>
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="first-li">
+          To be able to use the fundamental web dev language
+        </li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Wordpress or Wix
@@ -113,7 +118,7 @@
 
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="./../img/related-1.jpg"
@@ -123,7 +128,7 @@
           />
           <a href="#">How to Learn Web Development</a>
           <br />
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -134,7 +139,7 @@
           />
           <a href="#">The Unknown Powers of CSS</a>
           <br />
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img
@@ -145,11 +150,13 @@
           />
           <a href="#">Why JavaScript is Awesome</a>
           <br />
-          <p>By Mathilda</p>
+          <p class="related-author">By Mathilda</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine.</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+    </footer>
   </body>
 </html>
