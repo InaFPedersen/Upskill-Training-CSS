@@ -170,3 +170,13 @@ ul li {
   width: 243px;
   margin-top: 20px;
 }
+
+.container {
+  /* background-color: red; */
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
