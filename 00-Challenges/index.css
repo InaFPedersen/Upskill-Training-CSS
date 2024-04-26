@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -53,12 +54,12 @@ p {
   font-size: 12px;
 }
 
-#cost {
+.cost {
   font-size: 24px;
   font-weight: bolder;
 }
 
-#free-shipping {
+.free-shipping {
   color: #777;
   font-size: 12px;
   font-weight: bold;
@@ -137,4 +138,35 @@ ul li {
 
 .brown-color {
   background-color: #964b00;
+}
+
+.cost {
+  float: left;
+}
+
+.free-shipping {
+  float: right;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+.description {
+  clear: both;
+}
+
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.product-description {
+  margin-right: 40px;
+  width: 243px;
+  float: left;
+  margin-top: 20px;
+}
+
+.product-details {
+  float: right;
+  width: 243px;
+  margin-top: 20px;
 }
