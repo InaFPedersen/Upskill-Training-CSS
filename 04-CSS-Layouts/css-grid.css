@@ -53,10 +53,6 @@
   row-gap: 60px;
 }
 
-.container--2 {
-  /* display: none;  Hides the container 2 element*/
-}
-
 /* Fr unit */
 .container--1 {
   display: grid;
@@ -120,9 +116,7 @@
   grid-column: 2 / 4;
   grid-row: 4 / 5;
 }
-.container--1 {
-  display: none;
-}
+
 /* CSS GRID */
 .container--2 {
   font-family: sans-serif;
