@@ -190,9 +190,9 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
-  /* color: red; */
-}
+/*h3 + p::first-line {
+   color: red; 
+}*/
 
 h2 {
   /* background-color: orange; */
@@ -213,6 +213,7 @@ h2::before {
 }
 
 /* FLOATS */
+
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -254,6 +255,54 @@ aside {
 
 footer {
   clear: both;
+}
+
+/* FLEXBOX */
+/* .container {
+  display: flex;
+} */
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 0 0 300px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.related-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.related-img {
+  display: flex;
+  justify-self: center;
+  margin-right: 20px;
+}
+article {
+  flex: 1;
+  margin: 0;
+}
+
+.related-author,
+a:active,
+li:first-child,
+li:last-child {
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* 
