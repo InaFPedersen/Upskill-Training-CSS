@@ -26,7 +26,7 @@ body {
   padding-left: 1px;
   padding-right: 1px; */
   padding: 20px 40px; /*First number is top and bottom, second number is left and right*/
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -35,13 +35,13 @@ nav {
   /* text-align: center; */
 }
 
-article {
+/* article {
   margin-bottom: 60px;
 }
 
 .post-header {
   margin-bottom: 40px;
-}
+} */
 
 aside {
   background-color: #f7f7f7;
@@ -262,7 +262,7 @@ footer {
   display: flex;
 } */
 
-.row {
+/* .row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
@@ -274,7 +274,7 @@ aside {
   flex-direction: column;
   gap: 20px;
   flex: 0 0 300px;
-}
+} */
 
 li {
   display: flex;
@@ -292,10 +292,11 @@ li {
   justify-self: center;
   margin-right: 20px;
 }
-article {
+
+/* article {
   flex: 1;
   margin: 0;
-}
+} */
 
 .related-author,
 a:active,
@@ -305,6 +306,22 @@ li:last-child {
   font-style: normal;
 }
 
+/* CSS GRID */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / span 2;
+}
+
+footer {
+  grid-column: 1 / -1;
+}
 /* 
 Different methods of reaching elements that is not the best practice in complex applications:
 
