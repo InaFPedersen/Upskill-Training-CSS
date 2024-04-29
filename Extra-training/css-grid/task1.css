@@ -1,0 +1,47 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+.grid > * {
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.grid {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.task-content {
+  grid-column: 1 / -1;
+}
+
+h2 {
+  grid-column: 1 / -1;
+}
+
+h3 {
+  grid-column: 1 / -1;
+}
+
+p {
+  grid-column: 1 / span 2;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
