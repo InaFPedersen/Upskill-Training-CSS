@@ -1,0 +1,64 @@
+/* 
+--- TYPOGRAPHY SYSTEM
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+FONT WEIGHTS:
+Default: 400
+
+LINE HEIGHTS:
+Default: 1
+
+
+
+--- COLORS
+
+PRIMARY: #e67e22
+
+TINTS:
+
+SHADES:
+
+ACCENTS:
+
+GREYS:
+- #555
+
+--- SHADOWS
+
+--- BORDER-RADIUS
+
+--- WHITESPACE
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* .test {
+  Creates horizontal scrolling on the page 
+  width: 1000px; 
+  background-color: red;
+  padding: 100px; 
+  The width adapt to the viewport width when shrinking the page 
+  max-width: 1000px;
+
+  max-width: 50rem;
+  font-size: 2rem;
+  padding: 4rem;
+   1 rem = 16px if nothing else is declared 
+   If you set the font-size to be 10px in the html element 1rem = 10px
+} */
