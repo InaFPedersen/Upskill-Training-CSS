@@ -51,6 +51,7 @@ In this document you will find all the reused sizes, systems, colors, shadows, b
 - #555
 - #333
 - #fff
+- #6f6f6f
 
 ## SHADOWS
 
