@@ -59,6 +59,7 @@ In this document you will find all the reused sizes, systems, colors, shadows, b
 ## BORDER-RADIUS
 
 - 9px
+- 11px
 
 ## WHITESPACE
 
