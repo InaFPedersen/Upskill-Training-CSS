@@ -38,13 +38,16 @@ In this document you will find all the reused sizes, systems, colors, shadows, b
 
 - #fdf2e9
 - #fae5d3
+- #eb984e
 
 ### SHADES:
 
 - #cf711f
--
+- #45260a
 
 ### ACCENTS:
+
+- #ffd43b
 
 ### GREYS:
 
@@ -52,10 +55,17 @@ In this document you will find all the reused sizes, systems, colors, shadows, b
 - #333
 - #fff
 - #6f6f6f
+- #ddd
+- #aaa
 
 ## SHADOWS
 
 - inset 0 0 0 3px #fff
+- 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1)
+- 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+- 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06)
+- 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+- 0 0 0 0.8rem rgba(253, 242, 233, 0.5)
 
 ## BORDER-RADIUS
 
@@ -63,6 +73,47 @@ In this document you will find all the reused sizes, systems, colors, shadows, b
 - 11px
 
 ## WHITESPACE
+
+### PADDINGS
+
+- 9.6rem
+- 8rem
+- 4.8rem
+- 4.6rem
+- 3.2rem
+- 2.4rem
+- 1.6rem
+- 1.2rem
+- 0.8rem
+- 0.4rem
+- 0.2rem
+- 0
+- 60%
+- 45%
+- auto
+
+### MARGINS
+
+- 9.6rem
+- 8rem
+- 6.4rem
+- 4.8rem
+- 3.2rem
+- 2.4rem
+- 1.6rem
+- 1.2rem
+- 0
+- -1.6rem
+- auto
+
+### GAP
+
+- 9.6rem
+- 6.4rem
+- 3.2rem
+- 2rem
+- 1.6rem
+- 0.4rem
 
 ### SPACING SYSTEM (px)
 
