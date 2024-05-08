@@ -51,12 +51,15 @@ In this document you will find all the reused sizes, systems, colors, shadows, b
 
 ### GREYS:
 
-- #555
 - #333
-- #fff
+- #555
+- #888
+- #767676
 - #6f6f6f
-- #ddd
 - #aaa
+- #ddd
+- #eee
+- #fff
 
 ## SHADOWS
 
