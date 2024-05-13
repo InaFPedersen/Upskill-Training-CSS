@@ -26,4 +26,16 @@ we just learned to complete different levels.
 
 - [CSS Grid game](https://cssgridgarden.com/)
 
-<!-- - []() -->
+## Resources
+
+It was used several third party resources in this course. Here is a list with link to each of the sources used.
+
+Resources used
+
+- [Open Color](https://yeun.github.io/open-color/)
+
+- [Color Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)
+
+- [Ionicons](https://ionic.io/ionicons)
+
+- [Squoosh](https://squoosh.app/)
