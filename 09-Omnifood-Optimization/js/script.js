@@ -47,6 +47,32 @@ allLinks.forEach(function (link) {
 });
 
 ///////////////////////////////////////////////////////////
+// MAKE THE HEADER STICKY AFTER HERO
+//////////////////////////////////////////////////////////
+const sectionHeroEl = document.querySelector('.section-hero');
+
+const observer = new IntersectionObserver(
+  function (entries) {
+    const entry = entries[0];
+    // console.log(entry);
+    if (!entry.isIntersecting) {
+      document.body.classList.add('sticky');
+    }
+
+    if (entry.isIntersecting) {
+      document.body.classList.remove('sticky');
+    }
+  },
+  {
+    // In the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: '-80px',
+  }
+);
+observer.observe(sectionHeroEl);
+
+///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement('div');
