@@ -1,0 +1,81 @@
+/************************************************/
+/* CALL TO ACTION SECTION */
+/************************************************/
+
+.section-call-to-action {
+  padding: 4.8rem 0 12.8rem 0;
+}
+
+.call-to-action {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+}
+
+.call-to-action-text-box {
+  color: #45260a;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.call-to-action .heading-secondary {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.call-to-action-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.call-to-action-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.call-to-action-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.call-to-action-form input,
+.call-to-action-form select {
+  width: 100%;
+  padding: 1.2rem;
+
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-sizing: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action-form input::placeholder {
+  color: #aaa;
+}
+
+.call-to-action-image-box {
+  background-image: linear-gradient(
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url(./../../img/07-08-09/eating.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.call-to-action *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
