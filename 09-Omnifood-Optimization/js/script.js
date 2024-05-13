@@ -1,24 +1,16 @@
-/* 
-LEARNING BASIC JAVASCRIPT!!!
-
-console.log('Hello me!');
-
-const myName = 'Nora Nordmann';
-console.log('Hello ' + myName);
-
-const h1 = document.querySelector('.heading-primary');
-console.log(h1);
-
-h1.addEventListener('click', () => {
-  h1.textContent = myName;
-  h1.style.backgroundColor = 'red';
-  h1.style.padding = '5rem';
-}); 
-*/
-
+/* Set current year */
 const yearEl = document.querySelector('.year');
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+
+/* Set current year */
+
+const btnNavEl = document.querySelector('.btn-mobile-nav');
+const headerEl = document.querySelector('.header');
+
+btnNavEl.addEventListener('click', () => {
+  headerEl.classList.toggle('nav-open');
+});
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
@@ -91,4 +83,22 @@ checkFlexGap();
     margin-bottom: 4.8rem;
   }
 }
+*/
+
+/* 
+LEARNING BASIC JAVASCRIPT!!!
+
+console.log('Hello me!');
+
+const myName = 'Nora Nordmann';
+console.log('Hello ' + myName);
+
+const h1 = document.querySelector('.heading-primary');
+console.log(h1);
+
+h1.addEventListener('click', () => {
+  h1.textContent = myName;
+  h1.style.backgroundColor = 'red';
+  h1.style.padding = '5rem';
+}); 
 */
